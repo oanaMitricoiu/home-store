@@ -39,8 +39,8 @@ export const services = [
     },
 ];
 
-export const products_url = "https://course-api.com/react-store-products";
+export const products_url = "/api/react-store-products";
 
 // export const products_url = "http://localhost:9000/.netlify/functions/index";
 
-export const single_product_url = `https://course-api.com/react-store-single-product?id=`;
+export const single_product_url = `/api/react-store-single-product?id=`;
