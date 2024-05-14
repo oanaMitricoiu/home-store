@@ -18,8 +18,7 @@ const CheckoutPage = () => {
                         </Link>
                     </div>
                 ) : (
-                    // <StripeCheckout/>
-                    <div>checkout</div>
+                    <StripeCheckout />
                 )}
             </Wrapper>
         </main>
